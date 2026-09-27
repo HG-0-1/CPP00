@@ -1,9 +1,9 @@
 NAME = MegaPhone 
-SRCS = PhoneBook.cpp
+SRCS = MegaPhone.cpp
 
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
-HEADERS = PhoneBook.hpp 
+HEADERS = MegaPhone.hpp 
 
 OBJS = $(SRCS:.cpp=.o)
 all: $(NAME)
