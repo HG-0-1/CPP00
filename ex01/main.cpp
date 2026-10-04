@@ -6,7 +6,7 @@
 /*   By: helfayez <helfayez@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/03 13:21:29 by helfayez          #+#    #+#             */
-/*   Updated: 2026/10/03 16:15:54 by helfayez         ###   ########.fr       */
+/*   Updated: 2026/10/04 21:08:39 by helfayez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ int main()
         if (!std::getline(std::cin, command))
             break;
         if(command == "ADD")
-            phoneBook.addContact();
+            phoneBook.AddContact();
         else if(command == "SEARCH")
-            phoneBook.searchContact();
+            phoneBook.SearchContact();
         else if(command == "EXIT")
             break;
     }
